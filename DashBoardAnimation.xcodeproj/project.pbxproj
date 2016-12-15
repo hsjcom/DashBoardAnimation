@@ -15,6 +15,7 @@
 		B2F9EEBA1E027EB900D9C4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F9EEB81E027EB900D9C4B7 /* LaunchScreen.storyboard */; };
 		B2F9EEC51E027EB900D9C4B7 /* DashBoardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEC41E027EB900D9C4B7 /* DashBoardAnimationTests.m */; };
 		B2F9EED01E027EB900D9C4B7 /* DashBoardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EECF1E027EB900D9C4B7 /* DashBoardAnimationUITests.m */; };
+		B2F9EEE51E027F4400D9C4B7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEE41E027F4400D9C4B7 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		B2F9EECB1E027EB900D9C4B7 /* DashBoardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashBoardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F9EECF1E027EB900D9C4B7 /* DashBoardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashBoardAnimationUITests.m; sourceTree = "<group>"; };
 		B2F9EED11E027EB900D9C4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F9EEE21E027F4400D9C4B7 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		B2F9EEE31E027F4400D9C4B7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B2F9EEE41E027F4400D9C4B7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		B2F9EEA91E027EB900D9C4B7 /* DashBoardAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B2F9EEE11E027F4400D9C4B7 /* Common */,
 				B2F9EEAD1E027EB900D9C4B7 /* AppDelegate.h */,
 				B2F9EEAE1E027EB900D9C4B7 /* AppDelegate.m */,
 				B2F9EEB01E027EB900D9C4B7 /* ViewController.h */,
@@ -138,6 +143,16 @@
 				B2F9EED11E027EB900D9C4B7 /* Info.plist */,
 			);
 			path = DashBoardAnimationUITests;
+			sourceTree = "<group>";
+		};
+		B2F9EEE11E027F4400D9C4B7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9EEE21E027F4400D9C4B7 /* Constant.h */,
+				B2F9EEE31E027F4400D9C4B7 /* UIView+Extension.h */,
+				B2F9EEE41E027F4400D9C4B7 /* UIView+Extension.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +293,7 @@
 			files = (
 				B2F9EEB21E027EB900D9C4B7 /* ViewController.m in Sources */,
 				B2F9EEAF1E027EB900D9C4B7 /* AppDelegate.m in Sources */,
+				B2F9EEE51E027F4400D9C4B7 /* UIView+Extension.m in Sources */,
 				B2F9EEAC1E027EB900D9C4B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
