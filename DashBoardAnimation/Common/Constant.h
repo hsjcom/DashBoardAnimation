@@ -42,4 +42,14 @@
 #define StrongSelf(strongSelf, weakSelf) __strong typeof(weakSelf) strongSelf = weakSelf;
 
 
+#define COLOR_C1 RGBCOLOR(255, 211, 33)  //yellow
+#define COLOR_C2 RGBCOLOR(228, 191, 88)
+#define COLOR_C3 RGBCOLOR(40, 33, 33)
+#define COLOR_C4 RGBCOLOR(255, 68, 86)  //red
+#define COLOR_G1 RGBCOLOR(53, 53, 53)
+#define COLOR_G2 RGBCOLOR(115, 115, 115)
+#define COLOR_G3 RGBCOLOR(163, 163, 163)
+#define COLOR_G4 RGBCOLOR(211, 210, 210)
+#define COLOR_BG RGBCOLOR(246, 246, 246)
+
 #endif /* Constant_h */

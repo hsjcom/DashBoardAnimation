@@ -16,6 +16,13 @@
 		B2F9EEC51E027EB900D9C4B7 /* DashBoardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEC41E027EB900D9C4B7 /* DashBoardAnimationTests.m */; };
 		B2F9EED01E027EB900D9C4B7 /* DashBoardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EECF1E027EB900D9C4B7 /* DashBoardAnimationUITests.m */; };
 		B2F9EEE51E027F4400D9C4B7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEE41E027F4400D9C4B7 /* UIView+Extension.m */; };
+		B2F9EEF11E0280C900D9C4B7 /* DashBoardBgView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEE81E0280C900D9C4B7 /* DashBoardBgView.m */; };
+		B2F9EEF21E0280C900D9C4B7 /* DashBoardDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEEA1E0280C900D9C4B7 /* DashBoardDotView.m */; };
+		B2F9EEF31E0280C900D9C4B7 /* DashBoardIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEEC1E0280C900D9C4B7 /* DashBoardIndicatorView.m */; };
+		B2F9EEF41E0280C900D9C4B7 /* DashBoardProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEEE1E0280C900D9C4B7 /* DashBoardProgressView.m */; };
+		B2F9EEF51E0280C900D9C4B7 /* DashBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9EEF01E0280C900D9C4B7 /* DashBoardView.m */; };
+		B2F9EEF91E02970D00D9C4B7 /* dashboardDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F9EEF71E02970D00D9C4B7 /* dashboardDot@2x.png */; };
+		B2F9EEFA1E02970D00D9C4B7 /* dashboardDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F9EEF81E02970D00D9C4B7 /* dashboardDot@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,18 @@
 		B2F9EEE21E027F4400D9C4B7 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		B2F9EEE31E027F4400D9C4B7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		B2F9EEE41E027F4400D9C4B7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B2F9EEE71E0280C900D9C4B7 /* DashBoardBgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardBgView.h; sourceTree = "<group>"; };
+		B2F9EEE81E0280C900D9C4B7 /* DashBoardBgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardBgView.m; sourceTree = "<group>"; };
+		B2F9EEE91E0280C900D9C4B7 /* DashBoardDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardDotView.h; sourceTree = "<group>"; };
+		B2F9EEEA1E0280C900D9C4B7 /* DashBoardDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardDotView.m; sourceTree = "<group>"; };
+		B2F9EEEB1E0280C900D9C4B7 /* DashBoardIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardIndicatorView.h; sourceTree = "<group>"; };
+		B2F9EEEC1E0280C900D9C4B7 /* DashBoardIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardIndicatorView.m; sourceTree = "<group>"; };
+		B2F9EEED1E0280C900D9C4B7 /* DashBoardProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardProgressView.h; sourceTree = "<group>"; };
+		B2F9EEEE1E0280C900D9C4B7 /* DashBoardProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardProgressView.m; sourceTree = "<group>"; };
+		B2F9EEEF1E0280C900D9C4B7 /* DashBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardView.h; sourceTree = "<group>"; };
+		B2F9EEF01E0280C900D9C4B7 /* DashBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardView.m; sourceTree = "<group>"; };
+		B2F9EEF71E02970D00D9C4B7 /* dashboardDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashboardDot@2x.png"; sourceTree = "<group>"; };
+		B2F9EEF81E02970D00D9C4B7 /* dashboardDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashboardDot@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +124,7 @@
 		B2F9EEA91E027EB900D9C4B7 /* DashBoardAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B2F9EEE61E0280C900D9C4B7 /* DashBoard */,
 				B2F9EEE11E027F4400D9C4B7 /* Common */,
 				B2F9EEAD1E027EB900D9C4B7 /* AppDelegate.h */,
 				B2F9EEAE1E027EB900D9C4B7 /* AppDelegate.m */,
@@ -114,6 +134,7 @@
 				B2F9EEB61E027EB900D9C4B7 /* Assets.xcassets */,
 				B2F9EEB81E027EB900D9C4B7 /* LaunchScreen.storyboard */,
 				B2F9EEBB1E027EB900D9C4B7 /* Info.plist */,
+				B2F9EEF61E02970D00D9C4B7 /* Resource */,
 				B2F9EEAA1E027EB900D9C4B7 /* Supporting Files */,
 			);
 			path = DashBoardAnimation;
@@ -153,6 +174,32 @@
 				B2F9EEE41E027F4400D9C4B7 /* UIView+Extension.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		B2F9EEE61E0280C900D9C4B7 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9EEE71E0280C900D9C4B7 /* DashBoardBgView.h */,
+				B2F9EEE81E0280C900D9C4B7 /* DashBoardBgView.m */,
+				B2F9EEE91E0280C900D9C4B7 /* DashBoardDotView.h */,
+				B2F9EEEA1E0280C900D9C4B7 /* DashBoardDotView.m */,
+				B2F9EEEB1E0280C900D9C4B7 /* DashBoardIndicatorView.h */,
+				B2F9EEEC1E0280C900D9C4B7 /* DashBoardIndicatorView.m */,
+				B2F9EEED1E0280C900D9C4B7 /* DashBoardProgressView.h */,
+				B2F9EEEE1E0280C900D9C4B7 /* DashBoardProgressView.m */,
+				B2F9EEEF1E0280C900D9C4B7 /* DashBoardView.h */,
+				B2F9EEF01E0280C900D9C4B7 /* DashBoardView.m */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		B2F9EEF61E02970D00D9C4B7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9EEF71E02970D00D9C4B7 /* dashboardDot@2x.png */,
+				B2F9EEF81E02970D00D9C4B7 /* dashboardDot@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +314,8 @@
 				B2F9EEBA1E027EB900D9C4B7 /* LaunchScreen.storyboard in Resources */,
 				B2F9EEB71E027EB900D9C4B7 /* Assets.xcassets in Resources */,
 				B2F9EEB51E027EB900D9C4B7 /* Main.storyboard in Resources */,
+				B2F9EEFA1E02970D00D9C4B7 /* dashboardDot@3x.png in Resources */,
+				B2F9EEF91E02970D00D9C4B7 /* dashboardDot@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +342,11 @@
 			files = (
 				B2F9EEB21E027EB900D9C4B7 /* ViewController.m in Sources */,
 				B2F9EEAF1E027EB900D9C4B7 /* AppDelegate.m in Sources */,
+				B2F9EEF41E0280C900D9C4B7 /* DashBoardProgressView.m in Sources */,
+				B2F9EEF31E0280C900D9C4B7 /* DashBoardIndicatorView.m in Sources */,
+				B2F9EEF11E0280C900D9C4B7 /* DashBoardBgView.m in Sources */,
+				B2F9EEF21E0280C900D9C4B7 /* DashBoardDotView.m in Sources */,
+				B2F9EEF51E0280C900D9C4B7 /* DashBoardView.m in Sources */,
 				B2F9EEE51E027F4400D9C4B7 /* UIView+Extension.m in Sources */,
 				B2F9EEAC1E027EB900D9C4B7 /* main.m in Sources */,
 			);
